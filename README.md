@@ -1,4 +1,4 @@
-# Monte-Carlo-Off-Policy-Control
+# Monte Carlo Off Policy Control, Reinforcement Learning
 
 Реализованы алгоритмы:
 
