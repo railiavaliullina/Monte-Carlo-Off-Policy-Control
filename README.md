@@ -1,26 +1,34 @@
 # Monte Carlo Off Policy Control, Reinforcement Learning
 
-Реализованы алгоритмы:
 
-- оценки Monte Carlo Off policy evaluation;
+# About The Project
 
-- контроля Monte Carlo Off policy control.
+The following control algorithms were implemented:
+
+- Monte Carlo Off policy evaluation algorithm;
+
+- Monte Carlo Off policy control algorithm.
 
 
-1) файл для запуска:
+# Getting Started
 
-`/executor/executor.py`
+File to run: 
+    
+    /executor/executor.py
 
-`action_set`, `map_name`, `policy_type` можно поменять в `/configs/config.py` 
-через параметры `cfg.action_set`, `cfg.map_name`, `cfg.policy_type`.
+Parameters `action_set`, `map_name`, `policy_type` can be changed in:
+    
+    /configs/config.py via parameters cfg.action_set, cfg.map_name, cfg.policy_type.
 
-2) реализация first/every policy evaluation:
+The implementation of algorithms is in:
 
-`/MC/MC.py`
+      /MC/MC.py
 
-3) Графики сравнения алгоритмов по bias и variance:
+Visualization for comparing algorithms by bias and variance is in:
    
-   `/plots/`
+    /plots/
 
-Также при запуске `/executor/executor.py` графики построятся в браузере, где можно будет посмотреть все значения подробнее и 
-значения bias и variance для first и every visit policy evaluation выведятся в консоль.
+
+# Additional Information
+
+Also, when you run `/executor/executor.py`, graphs will be built in the browser, where you can see all the values in more detail and the bias and variance values for first and every visit policy evaluation will be printed to the console.
